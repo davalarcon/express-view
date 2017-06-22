@@ -1,0 +1,17 @@
+
+
+    <p> Hello <%= viewNameVar %>!</p>
+    <p> You are <%= viewAgeVar %> years old </p>
+
+    <p>Question: What the heck is EJS?</p>
+
+    <p> Answer: It lets you add JavaScript logic to the creation of your HTML. </p>
+
+    <%  for (let i=1; i<=1000; i+=1){ %>
+    <%  if (i % 2 === 0) {  %>
+        <div class='red'><%= i %></div>
+    <%  } else {  %>
+              <div class='black'><%= i %></div>
+    <%  }  %>
+
+    <%}%>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> <%= myTitle %> </title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body class="<%= myBodyClass %>">
+  <header>
+    <h1> <%= myTitle %> </h1>
+
+    <nav>
+      <a href="/">HOME</a>
+      <br>
+      <a href="/books">Class Books</a>
+      <br>
+      <a href="/accomplishments"> Class Accomplishments</a>
+      <br>
+    </nav>
+</header>
+
+
+<!-- THE MOST IMPORTANT PART OF THE LAYOUTS -->
+<%- body %>
+
+<!-- DONT FORGET THIS -->
+
+
+<footer>
+  <p> Made with love at Ironhack </p>
+</footer>
+
+
+    <script src="/js/front.js"></script>
+
+  </body>
+</html>

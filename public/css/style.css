@@ -1,0 +1,23 @@
+.red{
+  background-color: red;
+  color: white;
+}
+
+.black{
+  background-color: black;
+  color: white;
+}
+
+h1{
+  color: blue;
+}
+.feature-accomp{
+  background-color: goldenrod;
+  color: white;
+  padding: 25px;
+  border-radius: 3px;
+}
+
+.feature-accomp i{
+  font-size: 20px;
+}

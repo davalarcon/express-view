@@ -1,0 +1,27 @@
+
+
+  <section class="feature-accomp">
+    <h2> <%= featureAccomplishments.award %></h2>
+
+  <%  if (featureAccomplishments.person === 'Kevin'){ %>
+      Not to exclude other TA's like Ariel, but Kevin was awarded
+      <li> <%=featureAccomplishments.award %></li>
+  <%  } else {  %>
+      <p> Put the spotlight on <b> <%= featureAccomplishments.person %> </b>
+        for being awarded <i> <%= featureAccomplishments.award %></i>
+      </p>
+  <%  }  %>
+
+
+
+  </section>
+
+
+    <ul>
+    <%  accomplishmentsForView.forEach((oneAccomp)=>{ %>
+      <li>
+        <h2> <%= oneAccomp.award %></h2>
+          <p> Awarded to: <b><%= oneAccomp.person %></b></p>
+      </li>
+    <%  })  %>
+    </ul>
